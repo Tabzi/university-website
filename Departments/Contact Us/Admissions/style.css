@@ -1,0 +1,60 @@
+body{
+    background-color: #cbdabc;
+}
+p{
+font-size: large;
+}
+.navbar{
+    width: 100%;
+   color: #fff;
+   background-color:rgb(67, 129, 38) ;
+   height: 70px;
+}
+.navbar .container{
+    max-width: 1800px;
+    margin: 0% auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+
+}
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    margin-right: 10px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0px 20px;
+    
+}
+h2{
+    text-align: center;
+    padding: 20px;
+}
+div.main{
+    width: 500px;
+    margin: 50px auto 0px auto;
+}
+div.register{
+   background-color: rgba(67, 129, 38, 0.5)  ; 
+   width: 100%;
+   font-size: 18px;
+   border-radius:10px;
+   border: 1px solid rgba(225, 225, 225, 0.3);
+   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+   color: #ffff;
+}
+
+form#register{
+    margin: 40px;
+}
+ 
